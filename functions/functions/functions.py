@@ -6,7 +6,7 @@ def test(a, b):
 
 def a(a, b, c):
 	for i in range(10):
-		v = random.choice(a, b, c)
+		v = random.choice([a, b, c])
 		if i == 0:
 			word = v[random.randint(v.length)];
 		else:
@@ -19,4 +19,4 @@ def b(a):
 	return r;
 def c(a, b, c):
 	ans = input(a(c, b, a));
-	print(a(random.choice(a, b, c, ans), random.choice(a, b, c, ans), random.choice(a, b, c, ans)));
+	print(a(random.choice([a, b, c, ans]), random.choice([a, b, c, ans]), random.choice([a, b, c, ans])));
