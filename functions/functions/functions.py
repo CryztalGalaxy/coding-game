@@ -8,9 +8,9 @@ def a(a, b, c):
 	for i in range(10):
 		v = random.choice([a, b, c])
 		if i == 0:
-			word = v[random.randint(len(v))];
+			word = v[random.randint(0, len(v) - 1)];
 		else:
-			word += v[random.randint(len(v))];
+			word += v[random.randint(0, len(v) - 1)];
 		return word;
 def b(a):
 	r = a;
