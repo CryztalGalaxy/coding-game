@@ -18,5 +18,5 @@ def b(a):
 		r += a;
 	return r;
 def c(a, b, c):
-	ans = input(a(c, b, a));
+	ans = input (a(c, b, a));
 	print(a(random.choice([a, b, c, ans]), random.choice([a, b, c, ans]), random.choice([a, b, c, ans])));
