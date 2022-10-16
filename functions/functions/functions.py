@@ -14,7 +14,7 @@ def a(a, b, c):
 		return word;
 def b(a):
 	r = a;
-	for i in range(random.randint(3)):
+	for i in range(random.randint(1,3)):
 		r += a;
 	return r;
 def c(a, b, c):
